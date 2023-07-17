@@ -1,0 +1,19 @@
+[package]
+name = "tur_wallet"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bs58 = { version="0.4.0", features=["check"] }
+dotenv = "0.15.0"
+hex = "0.4.3"
+hmac-sha256 = "1.1.1"
+hmac-sha512 = "1.1.1"
+rand = "0.8.4"
+ring = "0.16.20"
+ripemd = "0.1.0"
+secp256k1 = "0.21.2"
+sha2 = "0.10.1"
+# sha3 = "0.10.0"
